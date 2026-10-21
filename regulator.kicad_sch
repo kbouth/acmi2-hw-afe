@@ -13691,7 +13691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_SD-43045-001_12_MOL"
+		(property "Footprint" "430451202:CONN_SD-43045-001_12_MOL"
 			(at 303.022 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13794,7 +13794,7 @@
 				)
 			)
 		)
-		(property "Value" "+15.0V"
+		(property "Value" "+5.0V"
 			(at 363.22 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14065,7 +14065,7 @@
 				)
 			)
 		)
-		(property "Value" "+5.0V"
+		(property "Value" "+15.0V"
 			(at 363.22 59.6899 90)
 			(show_name no)
 			(do_not_autoplace no)

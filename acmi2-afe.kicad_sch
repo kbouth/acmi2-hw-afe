@@ -417,6 +417,16 @@
 		)
 		(uuid "57546de6-35f1-4e76-9398-f617f4bbfe56")
 	)
+	(bus
+		(pts
+			(xy 214.63 180.34) (xy 237.49 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8bae30-5d38-416f-8a30-4cb159ca7109")
+	)
 	(wire
 		(pts
 			(xy 316.23 187.96) (xy 316.23 186.69)
@@ -469,7 +479,7 @@
 	)
 	(bus
 		(pts
-			(xy 214.63 161.29) (xy 237.49 161.29)
+			(xy 214.63 151.13) (xy 237.49 151.13)
 		)
 		(stroke
 			(width 0)
@@ -499,7 +509,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 165.1) (xy 237.49 165.1)
+			(xy 214.63 154.94) (xy 237.49 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3530,6 +3540,62 @@
 		)
 	)
 	(sheet
+		(at 237.49 175.26)
+		(size 27.305 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "045fc581-46f1-472c-ae19-0306551a53ea")
+		(property "Sheetname" "Arduino GIGA"
+			(at 237.49 174.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "arduinodisplay.kicad_sch"
+			(at 237.49 196.7996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{arduino_giga}" bidirectional
+			(at 237.49 180.34 180)
+			(uuid "81704743-6e82-4243-ae42-3d12a84be9d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "acmi2-afe"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 124.46 118.11)
 		(size 26.67 24.13)
 		(exclude_from_sim no)
@@ -3786,7 +3852,7 @@
 			)
 		)
 		(pin "{relaybrd}" output
-			(at 214.63 161.29 0)
+			(at 214.63 151.13 0)
 			(uuid "ae0be2e1-d830-436e-91c9-175d801bc376")
 			(effects
 				(font
@@ -3816,8 +3882,18 @@
 			)
 		)
 		(pin "wdi" output
-			(at 214.63 165.1 0)
+			(at 214.63 154.94 0)
 			(uuid "cd9ea620-e82e-4bae-9dd3-554e0100a27f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{arduino_giga}" bidirectional
+			(at 214.63 180.34 0)
+			(uuid "b55b3d17-0444-425a-8ed2-7310e441e587")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3966,7 @@
 		)
 	)
 	(sheet
-		(at 237.49 155.575)
+		(at 237.49 145.415)
 		(size 27.305 20.955)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3906,7 +3982,7 @@
 		)
 		(uuid "de558307-596e-4557-99f6-74ccc82e89c0")
 		(property "Sheetname" "Relay Board Interface"
-			(at 237.49 154.8634 0)
+			(at 237.49 144.7034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3917,7 +3993,7 @@
 			)
 		)
 		(property "Sheetfile" "relaybrd.kicad_sch"
-			(at 237.49 177.1146 0)
+			(at 237.49 166.9546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3928,7 +4004,7 @@
 			)
 		)
 		(pin "{relaybrd}" output
-			(at 237.49 161.29 180)
+			(at 237.49 151.13 180)
 			(uuid "3d10e7cb-2aea-4ea3-8273-aec23e1d5b4d")
 			(effects
 				(font
@@ -3938,7 +4014,7 @@
 			)
 		)
 		(pin "wdi" input
-			(at 237.49 165.1 180)
+			(at 237.49 154.94 180)
 			(uuid "b3b94fa5-b056-4331-9350-7fea2e7f820e")
 			(effects
 				(font
