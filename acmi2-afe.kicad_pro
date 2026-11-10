@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.45,
-          "width": 1.0
+          "height": 0.38,
+          "width": 12.19
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -528,7 +528,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -546,7 +546,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.17,
         "microvia_diameter": 0.3,
@@ -668,7 +668,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "fab/acmi2-afe.csv",
     "bom_fmt_presets": [],
@@ -935,8 +935,7 @@
         "fault_reset"
       ],
       "testpulses": [
-        "tp_pos[0..4]",
-        "tp_neg[0..4]"
+        "tp[0..9]"
       ]
     },
     "connection_grid_size": 50.0,
@@ -995,7 +994,7 @@
         "uuid": "40891cc8-bf64-41f4-8f69-a607d7b280eb"
       }
     ],
-    "used_designators": "#PWR87-97,#PWR111-117,#PWR119-147,CR1,C41-43,C47-76,J5-6,J8-9,TP6,R28-35,R46-67,U9,U11-15,XMER1",
+    "used_designators": "#PWR11,#PWR14,#PWR33-34,#PWR87-97,#PWR111-117,#PWR119-162,CR1,C41-43,C47-82,J5-6,J8-9,MT9-24,TP6,R28-35,R46-69,U9,U11-17,XMER1",
     "variants": []
   },
   "sheets": [

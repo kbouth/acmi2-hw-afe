@@ -1071,7 +1071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_B5B-XH-A_JST"
+		(property "Footprint" "My Footprints:CONN_B5B-XH-A_JST"
 			(at 81.28 74.93 0)
 			(hide yes)
 			(show_name no)

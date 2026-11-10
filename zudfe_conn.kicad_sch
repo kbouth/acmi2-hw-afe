@@ -5011,7 +5011,7 @@
 		)
 		(uuid "ff4d0629-f455-4733-9386-85401f576e75")
 	)
-	(label "tp_pos4"
+	(label "tp4"
 		(at 334.01 87.63 180)
 		(effects
 			(font
@@ -5041,7 +5041,7 @@
 		)
 		(uuid "0dc2f168-f0cd-49b2-82f0-7b63f80f84d8")
 	)
-	(label "tp_neg4"
+	(label "tp9"
 		(at 334.01 74.93 180)
 		(effects
 			(font
@@ -5081,7 +5081,7 @@
 		)
 		(uuid "1b2288f2-7b99-4713-8ca3-17e733a2acc4")
 	)
-	(label "tp_neg0"
+	(label "tp5"
 		(at 334.01 85.09 180)
 		(effects
 			(font
@@ -5101,7 +5101,7 @@
 		)
 		(uuid "2d45365e-ec9f-4b3c-b242-5aa2f7262ae5")
 	)
-	(label "tp_neg3"
+	(label "tp8"
 		(at 334.01 77.47 180)
 		(effects
 			(font
@@ -5331,7 +5331,7 @@
 		)
 		(uuid "70055838-95b5-421b-9c9c-40a1de078fd4")
 	)
-	(label "tp_neg1"
+	(label "tp6"
 		(at 334.01 82.55 180)
 		(effects
 			(font
@@ -5381,7 +5381,7 @@
 		)
 		(uuid "87a53ff8-4603-41f6-a59f-2690e5443dc7")
 	)
-	(label "tp_pos1"
+	(label "tp1"
 		(at 334.01 95.25 180)
 		(effects
 			(font
@@ -5431,7 +5431,7 @@
 		)
 		(uuid "9b9eec79-a79b-4bda-bbc3-588ad6b4dcf6")
 	)
-	(label "tp_pos3"
+	(label "tp3"
 		(at 334.01 90.17 180)
 		(effects
 			(font
@@ -5491,7 +5491,7 @@
 		)
 		(uuid "ad05ef41-83da-49df-bffc-8877e5d86554")
 	)
-	(label "tp_pos2"
+	(label "tp2"
 		(at 334.01 92.71 180)
 		(effects
 			(font
@@ -5631,7 +5631,7 @@
 		)
 		(uuid "d7f4daab-09ae-43ec-8269-2f0b59b9d950")
 	)
-	(label "tp_neg2"
+	(label "tp7"
 		(at 334.01 80.01 180)
 		(effects
 			(font
@@ -5651,7 +5651,7 @@
 		)
 		(uuid "e02ecbb3-adef-4772-98bc-c8721a9d5ccb")
 	)
-	(label "tp_pos0"
+	(label "tp0"
 		(at 334.01 97.79 180)
 		(effects
 			(font
