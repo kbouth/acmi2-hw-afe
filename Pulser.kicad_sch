@@ -151,42 +151,6 @@
 					)
 				)
 				(arc
-					(start 8.89 -2.032)
-					(mid 9.1428 -2.286)
-					(end 8.89 -2.54)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 8.89 -2.54)
-					(mid 9.1428 -2.794)
-					(end 8.89 -3.048)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 8.89 -4.572)
-					(mid 9.1428 -4.826)
-					(end 8.89 -5.08)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 8.89 -0.508)
 					(mid 9.1428 -0.762)
 					(end 8.89 -1.016)
@@ -223,6 +187,30 @@
 					)
 				)
 				(arc
+					(start 8.89 -2.032)
+					(mid 9.1428 -2.286)
+					(end 8.89 -2.54)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -2.54)
+					(mid 9.1428 -2.794)
+					(end 8.89 -3.048)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
 					(start 8.89 -3.048)
 					(mid 9.1428 -3.302)
 					(end 8.89 -3.556)
@@ -250,6 +238,18 @@
 					(start 8.89 -4.064)
 					(mid 9.1428 -4.318)
 					(end 8.89 -4.572)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.89 -4.572)
+					(mid 9.1428 -4.826)
+					(end 8.89 -5.08)
 					(stroke
 						(width 0.127)
 						(type default)
@@ -306,6 +306,30 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 11.43 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 11.43 -0.508)
+					(mid 11.1771 -0.254)
+					(end 11.43 0)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 11.43 -1.016)
 					(mid 11.1771 -0.762)
@@ -343,6 +367,30 @@
 					)
 				)
 				(arc
+					(start 11.43 -2.54)
+					(mid 11.1771 -2.286)
+					(end 11.43 -2.032)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 11.43 -3.048)
+					(mid 11.1771 -2.794)
+					(end 11.43 -2.54)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
 					(start 11.43 -3.556)
 					(mid 11.1771 -3.302)
 					(end 11.43 -3.048)
@@ -370,54 +418,6 @@
 					(start 11.43 -4.572)
 					(mid 11.1771 -4.318)
 					(end 11.43 -4.064)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 -5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 11.43 -0.508)
-					(mid 11.1771 -0.254)
-					(end 11.43 0)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 11.43 -2.54)
-					(mid 11.1771 -2.286)
-					(end 11.43 -2.032)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 11.43 -3.048)
-					(mid 11.1771 -2.794)
-					(end 11.43 -2.54)
 					(stroke
 						(width 0.127)
 						(type default)
@@ -8613,7 +8613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "adt1-6+:CD637_MNC"
+		(property "Footprint" "CD637_MNC"
 			(at 344.17 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9724,7 +9724,7 @@
 				)
 			)
 		)
-		(property "Value" "+5PWR"
+		(property "Value" "+5V_PWR"
 			(at 192.786 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)

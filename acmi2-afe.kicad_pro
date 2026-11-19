@@ -560,7 +560,7 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "DP_100",
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -663,7 +663,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "acmi2-afe-gerber/",
+      "plot": "acmi2-afe-gerber/fab/",
       "pos_files": "Outputs/ASSY/",
       "specctra_dsn": "",
       "step": "acmi2-afe.step",
