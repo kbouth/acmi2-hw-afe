@@ -4955,6 +4955,16 @@
 		)
 		(uuid "9c63683b-9f85-4ef3-b1be-66609d01e503")
 	)
+	(label "TP_OUT"
+		(at 375.92 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f108cd0-cc18-4e7b-9b0a-682a373a3a1b")
+	)
 	(label "tp6"
 		(at 59.69 80.01 180)
 		(effects
@@ -9714,7 +9724,7 @@
 				)
 			)
 		)
-		(property "Value" "+5.0V"
+		(property "Value" "+5PWR"
 			(at 192.786 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)

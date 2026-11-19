@@ -6182,6 +6182,16 @@
 			)
 		)
 	)
+	(label "ICT_IN"
+		(at 69.85 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bc86ce9-ae04-4635-8c77-62a335f33d6e")
+	)
 	(label "D6_P"
 		(at 280.67 99.06 0)
 		(fields_autoplaced yes)

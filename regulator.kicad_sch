@@ -7471,15 +7471,14 @@
 				)
 			)
 		)
-		(property "Value" "+5.0V"
-			(at 40.64 41.9099 90)
+		(property "Value" "+5V_PWR"
+			(at 43.18 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -13794,7 +13793,7 @@
 				)
 			)
 		)
-		(property "Value" "+5.0V"
+		(property "Value" "+5V_PWR"
 			(at 363.22 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
